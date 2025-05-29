@@ -26,9 +26,11 @@ This project demonstrates how to build conversational workflows using [LangChain
    # or
    npm install
    ```
-3. Create a `.env` file in the project root and add your Groq API key:
+3. Create a `.env` file in the project root and add your API keys and settings:
    ```env
    GROQ_API_KEY=your_groq_api_key_here
+   LANGSMITH_TRACING=true
+   LANGSMITH_API_KEY=your_langsmith_api_key_here
    ```
 
 ## Usage
