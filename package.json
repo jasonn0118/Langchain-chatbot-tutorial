@@ -1,0 +1,13 @@
+{
+	"type": "module",
+	"scripts": {
+		"start": "node index.ts"
+	},
+	"dependencies": {
+		"@langchain/core": "^0.3.57",
+		"@langchain/groq": "^0.2.2",
+		"@langchain/langgraph": "^0.2.74",
+		"dotenv": "^16.5.0",
+		"uuid": "^11.1.0"
+	}
+}
